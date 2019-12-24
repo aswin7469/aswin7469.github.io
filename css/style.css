@@ -7,7 +7,7 @@
 }
 
 html {
-  background-color: #0c0c0c;
+  background-color: #6600af;
   height: 100%;
   user-select: none;
   -ms-user-select: none;
@@ -18,7 +18,7 @@ html {
 }
 
 body {
-  font-family: "Source Sans Pro", Arial, sans-serif;
+  font-family: "googlesans", Arial, sans-serif;
   margin: 0;
   padding: 0;
   height: 100%;
@@ -39,7 +39,7 @@ h1 {
 
 h2 {
   color: #777777;
-  font-family: "Source Sans Pro", Arial, sans-serif;
+  font-family: "googlesans", Arial, sans-serif;
   margin: 5 0 30px 0;
   margin-bottom: 30px;
   font-size: 22px;
