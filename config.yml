@@ -1,0 +1,85 @@
+baseURL: "https://aswin7469.github.io"
+paginate: 10
+theme: PaperMod
+title: "Aswin A S"
+
+enableRobotsTXT: true
+
+minify:
+  disableXML: true
+  minifyOutput: true
+
+languages:
+  en:
+    languageName: "English"
+    weight: 1
+    taxonomies:
+      category: categories
+      tag: tags
+      series: series
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+
+menu:
+  main:
+  - identifier: downloads
+    name: Downloads
+    url: "https://dl.aswinaskurup.xyz/"
+    weight: 1
+
+params:
+  author: Aswin A S
+  title: Aswin7469
+  description: "My personal blog"
+  keywords: [Blog, aswin7469, Aswin A S]
+  defaultTheme: auto
+  env: production
+
+  assets:
+    favicon: favicon.ico
+
+  profileMode:
+    enabled: false
+    title: ExampleSite
+    subtitle: "This is subtitle"
+    imageUrl: "https://avatars.githubusercontent.com/u/42562749?v=4"
+    imageWidth: 128
+    imageHeight: 128
+    imageTitle: my image
+    buttons:
+      - name: Posts
+        url: blog
+      - name: Tags
+        url: tags
+
+  # home-info mode
+  homeInfoParams:
+    Title: "Hi, I'm Aswin A S"
+    Content: I break android platform when bored
+
+  socialIcons:
+    - name: email
+      url: "aswinas7469@gmail.com"
+    - name: github
+      url: "https://github.com/aswin7469"
+    - name: gitlab
+      url: "https://gitlab.com/aswin7469"
+    - name: instagram
+      url: "https://instagram.com/aswin_a_s__"
+    - name: telegram
+      url: "https://t.me/aswin_a_s"
+    - name: twitter
+      url: "https://twitter.com/aswin_a_s__"
+
+  ShowCodeCopyButtons: true
+  ShowPostNavLinks: true
+  ShowReadingTime: true
+  ShowShareButtons: true
+  ShowToc: true
+  ShowWordCount: true
+  comments: true
+
+pygmentsUseClasses: true
